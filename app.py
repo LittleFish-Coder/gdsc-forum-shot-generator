@@ -55,6 +55,7 @@ if uploaded_file is not None:
 
     # Create download link
     img_byte_arr = io.BytesIO()
+    new_image.save(img_byte_arr, format="JPEG")
     img_byte_arr = img_byte_arr.getvalue()
     st.download_button(
         label="Download result",
