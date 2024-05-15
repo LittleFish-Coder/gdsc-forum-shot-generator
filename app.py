@@ -22,7 +22,7 @@ if uploaded_file is not None:
     st.write("Processing...")
 
     # Process image
-    background = Image.open("background.png")
+    background = Image.open("watermark.png")
     foreground = Image.open(uploaded_file)
 
     background_width, background_height = background.size

@@ -6,7 +6,7 @@ visit the online generator [here](https://gdsc-forum-shot-generator.streamlit.ap
 add the watermark to the image
 
 - watermark:
-![image](background.png)
+![image](watermark.png)
 
 - image:
 ![image](Fish.jpeg)
